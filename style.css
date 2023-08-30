@@ -1,3 +1,12 @@
+h1,
+h2,
+p,
+ul,
+ol,
+button {
+    font-family: "Times New Roman", Arial, sans-serif;
+}
+
 #home-img {
     height: 178px;
     width: 250px;
@@ -6,4 +15,31 @@
 #main-img {
     height: auto;
     width: 300px;
+}
+
+a {
+    font-weight: 900;
+    color: #2825b6af;
+}
+
+button {
+    background-color: #2825b6af;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+sub {
+    background-color: yellow;    
+}
+
+h1,
+h2 {
+    background-color: #2825b6af;
+    color: white;
+    text-align: center;
+}
+
+.optional {
+    color: #808080ab;
 }
