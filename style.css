@@ -1,9 +1,4 @@
-h1,
-h2,
-p,
-ul,
-ol,
-button {
+body {
     font-family: "Times New Roman", Arial, sans-serif;
 }
 
@@ -33,11 +28,14 @@ sub {
     background-color: yellow;    
 }
 
+h1 {
+    text-align: center;
+}
+
 h1,
 h2 {
     background-color: #2825b6af;
     color: white;
-    text-align: center;
 }
 
 .optional {
